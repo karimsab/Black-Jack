@@ -73,4 +73,13 @@ L'idée d'écriture de ce code m'est venu au cours de mes pérégrinations virtu
 
 Site très ludique et pédagogique qu permet de s'exercer sur la programmation, dans une difficulté montante.
 
+Ainsi, l'écriture du code est inspirée de ce qu'on peut voir sur le site du professeur.
+
 ---
+
+Le résultat final donne ceci :
+
+
+![Capture d’écran 2020-07-28 à 16 22 45](https://user-images.githubusercontent.com/62601686/88678291-96dbc300-d0ee-11ea-9534-e42e974489b9.png)
+
+De nombreuses améliorations sont possibles, telles que l'ajout de mises et d'images de jeton. L'ajout de joueurs supplémentaires, etc. Afin de rendre le jeux plus prenant.
