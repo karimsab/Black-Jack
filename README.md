@@ -56,6 +56,8 @@ class Joueur(object):
 
 On utilisera 52 cartes sous format .png, qu'on affichera dans le canevas, aux coordonnées souhaitées, ici x = 100, y = 450. L'origine du repère se trouvant en haut à gauche de la fenêtre.
 ```
+chemin = "/dame_coeur.png"
+carte = Photoimage(file=chemin)
 can.create_image(100, 450, image=carte)
 can.update()
 ``` 
@@ -82,4 +84,4 @@ Le résultat final donne ceci :
 
 ![Capture d’écran 2020-07-28 à 16 22 45](https://user-images.githubusercontent.com/62601686/88678291-96dbc300-d0ee-11ea-9534-e42e974489b9.png)
 
-De nombreuses améliorations sont possibles, telles que l'ajout de mises et d'images de jeton. L'ajout de joueurs supplémentaires, etc. Afin de rendre le jeux plus prenant.
+Afin de rendre le jeux plus prenant, de nombreuses améliorations sont possibles, telles que l'ajout de mises et d'images de jeton. L'ajout de joueurs supplémentaires, etc. 
