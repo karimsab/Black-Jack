@@ -12,7 +12,8 @@ root = Tk()
 root.title("Blackjack")
 root.geometry("500x640")
 ```
-Ligne de code permettan l'affichage de la fenêtre:
+Ligne de code permettant l'affichage de la fenêtre:
+
 `root.mainloop()`
 
 2. Création du canevas
@@ -36,7 +37,7 @@ b1.pack(side=LEFT)
 
 3. Création de classes
 
-`Python`étant un langage de programmation orienté objet, on va donc pouvoir utiliser des classes afin de profiter de la notion d'**héritage** entre objet et ainsi pouvoir utiliser des 'objets' qui ont les mêmes caractéristiques que d'autres 'objets'. En l'occurence, ici, les objets qui vont hériter des caractéristiques, découlent d'objets **parents** (le code suivant n'est posté qu'à titre informatif, il ne produit rien) :
+`Python`étant un langage de programmation orienté objet, on va donc pouvoir utiliser des classes afin de profiter de la notion d'**héritage** entre objets et ainsi pouvoir utiliser des 'objets' qui ont les mêmes caractéristiques que d'autres 'objets'. En l'occurence, ici, les objets qui vont hériter des caractéristiques, découlent d'objets **parents** (le code suivant n'est posté qu'à titre informatif, il ne produit rien) :
 
 ```
 class Carte(object):
@@ -69,7 +70,7 @@ Pour ceux qui n'auraient jamais joué au Blackjack, le but étant d'avoir une so
 
 ---
 
-L'idée d'écriture de ce code m'est venu au cours de mes pérégrinations virtuelles, à la recherche de projets en Python. J'ai donc découvert le site d'un professeur de mathématiques, qui permet d'apprendre à la programmation python, en codant divers jeux :
+L'idée d'écriture de ce code m'est venu au cours de mes pérégrinations virtuelles, à la recherche de projets en Python. J'ai donc découvert le site d'un professeur de mathématiques, qui permet d'apprendre la programmation python, en codant divers jeux :
 
 [objectif jeux](http://www.apprendre-en-ligne.net/pj/index.html)
 
