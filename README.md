@@ -80,9 +80,19 @@ Ainsi, l'écriture du code est inspirée de ce qu'on peut voir sur le site du pr
 
 ---
 
+
 Le résultat final donne ceci :
 
 
 ![Capture d’écran 2020-07-28 à 16 22 45](https://user-images.githubusercontent.com/62601686/88678291-96dbc300-d0ee-11ea-9534-e42e974489b9.png)
 
 Afin de rendre le jeux plus prenant, de nombreuses améliorations sont possibles, telles que l'ajout de mises et d'images de jeton. L'ajout de joueurs supplémentaires, etc. 
+
+6. Mise de départ
+
+(à intégrer dans le jeu)
+En début de partie, il serait interessant de pouvoir miser une certaine somme de jeton, pour cela on utilise un principe de *point and click* sur les jetons du canevas pour augmenter la mise :
+
+![Capture d’écran 2020-08-04 à 15 23 52](https://user-images.githubusercontent.com/62601686/89299131-8a171c00-d666-11ea-9366-3ac411f0e4d6.png)
+
+Il suffit donc donc de dessiner les jetons, de récupérer leur ID, puis lorsqu'on clique sur l'un ou l'autre jeton (on peut aussi les déplacer), leur valeur est ajouté au total du joueur.
